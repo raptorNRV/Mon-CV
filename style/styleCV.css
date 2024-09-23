@@ -3,7 +3,6 @@
 
 body {
     --main-yellow-color: #f5f50080;
-    border: 3px solid rgb(96, 96, 96);
 }   
 
 th {
@@ -78,6 +77,9 @@ h2, h3, h4 {
 }
 
 @media only screen and (min-width:600px) {
+    body{
+        border: 3px solid rgb(96, 96, 96);
+    }
     td,th{
         width: 150%;
     }
